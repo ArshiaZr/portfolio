@@ -52,7 +52,6 @@ export default function Home() {
         if (active !== "about") setActive("about");
       }
     } else {
-      console.log("scroll up");
       if (window.scrollY <= aboutRef.current.offsetTop + 100) {
         if (active !== "about") setActive("about");
       } else if (window.scrollY <= experienceRef.current.offsetTop + 100) {
