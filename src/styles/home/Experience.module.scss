@@ -1,0 +1,87 @@
+@import "../mixins";
+
+.experience {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  transition: all 0.2s;
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+
+  @include tablet2 {
+    padding: 1rem;
+  }
+
+  &.deactive {
+    opacity: 0.5;
+    &:hover {
+      background: rgba(255, 255, 255, 0.1);
+      opacity: 1;
+      .details {
+        .roleAndCompany {
+          color: var(--secondary);
+          svg {
+            transform: translateY(-5px);
+          }
+        }
+      }
+    }
+  }
+
+  .date {
+    color: rgb(100 116 139);
+    font-size: 3vw;
+    font-weight: 500;
+  }
+
+  .details {
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+
+    .roleAndCompany {
+      color: var(--primary);
+      //   font-weight: 300;
+      font-size: 4.25vw;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      svg {
+        transition: transform 0.2s;
+      }
+    }
+
+    .location {
+      color: var(--primary-body);
+      font-size: 3.5vw;
+      font-weight: 300;
+    }
+
+    .bulletPoints {
+      margin-top: 0.25rem;
+      display: flex;
+      flex-direction: column;
+      color: var(--primary-body);
+      font-size: 3.75vw;
+      line-height: 1.5;
+    }
+
+    .links {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .tags {
+      margin-top: 0.75rem;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      gap: 0.25rem;
+    }
+  }
+}
+
+// rgb(100 116 139)

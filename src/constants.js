@@ -23,6 +23,10 @@ export const experiences = [
         title: "Google Cloud Platform",
         link: "https://google.com/",
       },
+      {
+        title: "Google Cloud Platform",
+        link: "https://google.com/",
+      },
     ],
     tags: ["Java", "Python", "Google Cloud Platform"],
   },

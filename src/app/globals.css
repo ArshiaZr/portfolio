@@ -2,3 +2,18 @@
   padding: 0;
   margin: 0;
 }
+
+a {
+  text-decoration: none;
+}
+
+:root {
+  /* Colors */
+  --primary: #e5e7eb;
+  --primary-body: rgb(148 163 184);
+  --secondary: rgb(94 234 212);
+}
+
+ul {
+  list-style: none;
+}

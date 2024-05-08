@@ -1,0 +1,19 @@
+@import "../mixins";
+
+.link {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+
+  color: var(--primary);
+  font-size: 4.5vw;
+
+  span {
+    font-size: 3.5vw;
+  }
+
+  //   .icon {
+  //     color: var(--primary);
+  //     font-size: 1.5rem;
+  //   }
+}
