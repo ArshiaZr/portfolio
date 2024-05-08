@@ -10,6 +10,8 @@
 
   @include tablet2 {
     padding: 1rem;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   &.deactive {
@@ -32,6 +34,12 @@
     color: rgb(100 116 139);
     font-size: 3vw;
     font-weight: 500;
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    @include tablet2 {
+      font-size: 0.9vw;
+    }
   }
 
   .details {
@@ -41,11 +49,14 @@
 
     .roleAndCompany {
       color: var(--primary);
-      //   font-weight: 300;
       font-size: 4.25vw;
       display: flex;
       flex-direction: row;
       align-items: center;
+
+      @include tablet2 {
+        font-size: 1vw;
+      }
       svg {
         transition: transform 0.2s;
       }
@@ -55,6 +66,9 @@
       color: var(--primary-body);
       font-size: 3.5vw;
       font-weight: 300;
+      @include tablet2 {
+        font-size: 1vw;
+      }
     }
 
     .bulletPoints {
@@ -64,6 +78,9 @@
       color: var(--primary-body);
       font-size: 3.75vw;
       line-height: 1.5;
+      @include tablet2 {
+        font-size: 0.9vw;
+      }
     }
 
     .links {

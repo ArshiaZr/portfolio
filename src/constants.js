@@ -53,7 +53,8 @@ export const projects = [
       "My personal website to showcase my projects, experiences, and certifications.",
     tags: ["React", "Next.js", "SCSS"],
     demoLink: "https://arshiazr.com",
-    image: "/images/project.png",
+    image:
+      "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
     links: [
       {
         title: "Google Cloud Platform",
@@ -61,6 +62,66 @@ export const projects = [
       },
     ],
     video: "",
+  },
+  {
+    title: "Personal Website",
+    description:
+      "My personal website to showcase my projects, experiences, and certifications.",
+    tags: ["React", "Next.js", "SCSS"],
+    image: "/images/project.png",
+    video: "",
+    links: [
+      {
+        title: "Google Cloud Platform",
+        link: "https://google.com/",
+      },
+    ],
+    demoLink: "https://arshiazr.com",
+  },
+  {
+    title: "Personal Website",
+    description:
+      "My personal website to showcase my projects, experiences, and certifications.",
+    tags: ["React", "Next.js", "SCSS"],
+    image: "/images/project.png",
+    video: "",
+    links: [
+      {
+        title: "Google Cloud Platform",
+        link: "https://google.com/",
+      },
+    ],
+    demoLink: "https://arshiazr.com",
+  },
+  {
+    title: "Personal Website",
+    description:
+      "My personal website to showcase my projects, experiences, and certifications.",
+    tags: ["React", "Next.js", "SCSS"],
+    image: "/images/project.png",
+    video: "",
+    links: [
+      {
+        title: "Google Cloud Platform",
+        link: "https://google.com/",
+      },
+    ],
+    demoLink: "https://arshiazr.com",
+  },
+  {
+    title: "Personal Website",
+    description:
+      "My personal website to showcase my projects, experiences, and certifications.",
+    tags: ["React", "Next.js", "SCSS"],
+    image: "/images/project.png",
+    video: "",
+    links: [
+      {
+        title: "Google Cloud Platform",
+        link: "https://google.com/",
+      },
+    ],
+    demoLink: "https://arshiazr.com",
   },
   {
     title: "Personal Website",

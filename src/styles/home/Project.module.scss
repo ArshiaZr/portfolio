@@ -10,6 +10,8 @@
 
   @include tablet2 {
     padding: 1rem;
+    flex-direction: row;
+    gap: 2rem;
   }
 
   &.deactive {
@@ -34,10 +36,11 @@
 
     @include tablet2 {
       margin-top: 0rem;
+      width: 10vw;
     }
     .visualWrapper {
       width: 100%;
-      aspect-ratio: 2/1;
+      aspect-ratio: 2/1.2;
       position: relative;
       border-radius: 5px;
       overflow: hidden;
@@ -67,8 +70,13 @@
       display: flex;
       flex-direction: row;
       align-items: center;
+      gap: 0.25rem;
       svg {
         transition: transform 0.2s;
+      }
+
+      @include tablet2 {
+        font-size: 1vw;
       }
     }
 
@@ -77,6 +85,10 @@
       color: var(--primary-body);
       font-size: 3.75vw;
       line-height: 1.5;
+
+      @include tablet2 {
+        font-size: 0.9vw;
+      }
     }
 
     .links {

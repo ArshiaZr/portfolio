@@ -8,8 +8,16 @@
   color: var(--primary);
   font-size: 4.5vw;
 
+  @include tablet2 {
+    font-size: 1vw;
+  }
+
   span {
     font-size: 3.5vw;
+
+    @include tablet2 {
+      font-size: 0.8vw;
+    }
   }
 
   //   .icon {
