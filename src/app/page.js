@@ -84,10 +84,9 @@ export default function Home() {
         <div className={styles.introduction}>
           <div className={styles.info}>
             <div className={styles.name}>Arshia Zakeri</div>
-            <div className={styles.title}>Software Engineer</div>
+            <div className={styles.title}>Software Engineer, AI Engineer</div>
             <div className={styles.shortIntro}>
-              I build pixel-perfect, engaging, and accessible digital
-              experiences.
+              I program computers to do cool things.
             </div>
           </div>
           <ul className={styles.listOfContent}>
@@ -118,13 +117,16 @@ export default function Home() {
             {/* <li>certifications</li> */}
           </ul>
           <div className={styles.socials}>
-            <Link href="#">
+            <Link href="https://github.com/ArshiaZr" target="__blank">
               <FaGithub />
             </Link>
-            <Link href="#">
+            <Link
+              href="https://www.linkedin.com/in/arshiazakeri/"
+              target="__blank"
+            >
               <FaLinkedin />
             </Link>
-            <Link href="#">
+            <Link href="mailto:zrr.arshia@gmail.com">
               <SiGmail />
             </Link>
           </div>
@@ -133,24 +135,22 @@ export default function Home() {
           <div className={styles.detailedAbout} ref={aboutRef}>
             <div className={styles.title}>about</div>
             <div className={styles.wrapper}>
-              Back in 2012, I decided to try my hand at creating custom Tumblr
-              themes and tumbled head first into the rabbit hole of coding and
-              web development. Fast-forward to today, and I've had the privilege
-              of building software for an advertising agency, a start-up, a huge
-              corporation, and a digital product studio.
+              Driven software engineer with a strong background in development,
+              DevOps, and leadership. Pursuing Machine Learning certifications.
+              Passionate about mathematics, with two bronze medals from WMC and
+              TIMO Olympics.
               <br />
-              <br /> My main focus these days is building accessible user
-              interfaces for our customers at Klaviyo. I most enjoy building
-              software in the sweet spot where design and engineering meet —
-              things that look good but are also built well under the hood. In
-              my free time, I've also released an online video course that
-              covers everything you need to know to build a web app with the
-              Spotify API.
+              <br /> Lately, my main focus has been on crafting seamless
+              full-stack solutions and diving deep into AI engineering and data
+              science. I find my passion at the intersection of elegant design
+              and robust engineering, where aesthetics harmonize with
+              functionality. Beyond work, I'm pursuing a bachelor's degree in
+              Computer Science with a minor in Mathematics, delving into the
+              theoretical foundations that underpin modern technology.
               <br />
               <br />
-              When I'm not at the computer, I'm usually rock climbing, reading,
-              hanging out with my wife and two cats, or running around Hyrule
-              searching for Korok seeds Korok seeds.
+              When I'm not at the computer, I'm typically playing soccer,
+              practicing violin, immersing myself in music, or working out.
             </div>
           </div>
           <div className={styles.experience} ref={experienceRef}>

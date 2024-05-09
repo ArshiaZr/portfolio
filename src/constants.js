@@ -1,141 +1,71 @@
-// startDate,
-// endDate,
-// role,
-// company,
-// location,
-// bulletPoints,
-// tags = [],
-
 export const experiences = [
   {
-    startDate: "2021",
-    endDate: "2021",
+    startDate: "03/2024",
+    endDate: "present",
     role: "Software Engineer Intern",
-    company: "Google",
-    location: "Mountain View, CA",
+    company: "Vision AI",
+    location: "Toronto, Canada",
     bulletPoints: [
-      "Developed a new feature for Google Cloud Platform's Cloud Functions",
-      "Worked with a team of engineers to design and implement the feature",
-      "Wrote tests to ensure the feature was working correctly",
-    ],
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
+      "Contributed to the FindThatEmail project, an RAG AI assistant for email finding with prompts.",
+      "Implemented a PDF accessibility with Next.js and TypeScript to assess WCAG compliance, enhancing accessibility for users with disabilities.",
+      "Collaborated , with a team of 8 developers to develop WCAG PDF Analysis with ML embedding techniques.",
     ],
     tags: ["Java", "Python", "Google Cloud Platform"],
   },
   {
-    startDate: "2021",
-    endDate: "2021",
-    role: "Software Engineer Intern",
-    company: "Google",
-    location: "Mountain View, CA",
+    startDate: "07/2023",
+    endDate: "01/2024",
+    role: "Software Engineer",
+    company: "Versall Inc.",
+    location: "Toronto, Canada",
     bulletPoints: [
-      "Developed a new feature for Google Cloud Platform's Cloud Functions",
-      "Worked with a team of engineers to design and implement the feature",
-      "Wrote tests to ensure the feature was working correctly",
+      "Led a technology agency, creating scalable solutions, leveraging ML techniques such as clustering customers for enhanced user experiences, and collaborating with a network of over 10 companies.",
+      "Collaborated, recruited and worked with a team of 12 developers/designers to develop front-end and back-end applications using Next.js and Express.js.",
+      "Enhanced back-end efficiency by reducing server requests by 35%, optimizing overall system performance.",
     ],
-    links: [],
+    tags: ["Java", "Python", "Google Cloud Platform"],
+  },
+  {
+    startDate: "08/2022",
+    endDate: "03/2023",
+    role: "DevOps Intern",
+    company: "DevOps Solutions Inc.",
+    location: "Toronto, Canada",
+    bulletPoints: [
+      "Implemented CI/CD pipelines, boosting efficiency by 20%.",
+      "Managed cloud infrastructure for 30% scalability and 99.9% availability.",
+      "Collaborated across teams, reducing system downtime by 15%.",
+    ],
     tags: ["Java", "Python", "Google Cloud Platform"],
   },
 ];
 
 export const projects = [
   {
-    title: "Personal Website",
+    title: "InteliCourse",
     description:
-      "My personal website to showcase my projects, experiences, and certifications.",
+      "Delveloped IntelliCourse, an AI-driven platform for personalized learning aimed at achieving UnitedNations Goal 4 of Quality Education for all. Integrated ML-based embeddings to optimize AI tutors and quizzes, improving accessibility for dyslexiclearners across 50+ courses.",
     tags: ["React", "Next.js", "SCSS"],
-    demoLink: "https://arshiazr.com",
-    image:
-      "https://buffer.com/cdn-cgi/image/w=1000,fit=contain,q=90,f=auto/library/content/images/size/w1200/2023/10/free-images.jpg",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
+    image: "/images/projects/01.png",
     video: "",
+    demoLink: "https://github.com/lhlRahman/intelicourse",
   },
   {
-    title: "Personal Website",
+    title: "SkillSync",
     description:
-      "My personal website to showcase my projects, experiences, and certifications.",
+      "Secured 1st place in the BFN Challenge, distinguishing Skill Sync as a platform for enhancing community engagement through volunteer matching, utilizing advanced Cohere AI technology for personalized opportunity searches. Achieved top 5 ranking at Cohere's competition and clinched 1st place at GoDaddy's challenge, highlighting Skill Sync's innovative use of AI for connecting volunteers with skill-enhancing opportunities",
     tags: ["React", "Next.js", "SCSS"],
-    image: "/images/project.png",
+    image: "/images/projects/02.png",
     video: "",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
-    demoLink: "https://arshiazr.com",
+    demoLink: "https://github.com/lhlRahman/skillsync/",
   },
   {
-    title: "Personal Website",
+    title: "MyCMS",
     description:
-      "My personal website to showcase my projects, experiences, and certifications.",
+      "Developed a CMS using Node.js and Next.js for efficient content creation, management, and publication. Increased customer acquisition by 23%, generating $10,000+ annually. Integrated Caddy web server as a reverse proxy with HTTPS support for secure and reliable access.",
     tags: ["React", "Next.js", "SCSS"],
-    image: "/images/project.png",
+    image: "/images/projects/03.gif",
     video: "",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
-    demoLink: "https://arshiazr.com",
-  },
-  {
-    title: "Personal Website",
-    description:
-      "My personal website to showcase my projects, experiences, and certifications.",
-    tags: ["React", "Next.js", "SCSS"],
-    image: "/images/project.png",
-    video: "",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
-    demoLink: "https://arshiazr.com",
-  },
-  {
-    title: "Personal Website",
-    description:
-      "My personal website to showcase my projects, experiences, and certifications.",
-    tags: ["React", "Next.js", "SCSS"],
-    image: "/images/project.png",
-    video: "",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
-    demoLink: "https://arshiazr.com",
-  },
-  {
-    title: "Personal Website",
-    description:
-      "My personal website to showcase my projects, experiences, and certifications.",
-    tags: ["React", "Next.js", "SCSS"],
-    image: "/images/project.png",
-    video: "",
-    links: [
-      {
-        title: "Google Cloud Platform",
-        link: "https://google.com/",
-      },
-    ],
-    demoLink: "https://arshiazr.com",
+    demoLink: "https://github.com/ArshiaZr/MyCMS",
   },
 ];

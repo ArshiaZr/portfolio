@@ -34,13 +34,9 @@
     margin-top: 0.75rem;
     width: 100%;
 
-    @include tablet2 {
-      margin-top: 0rem;
-      width: 10vw;
-    }
     .visualWrapper {
       width: 100%;
-      aspect-ratio: 2/1.2;
+      aspect-ratio: 2 / 1.3;
       position: relative;
       border-radius: 5px;
       overflow: hidden;
@@ -56,16 +52,21 @@
         object-fit: cover;
       }
     }
+
+    @include tablet2 {
+      margin-top: 0rem;
+      width: 11rem;
+    }
   }
 
   .details {
+    width: fit-content;
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
 
     .title {
       color: var(--primary);
-      //   font-weight: 300;
       font-size: 4.25vw;
       display: flex;
       flex-direction: row;

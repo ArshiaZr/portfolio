@@ -18,10 +18,10 @@ export default function Project({
     <div className={`${styles.project} ${mouseIn ? styles.deactive : ""}`}>
       <div className={styles.preview}>
         <div className={styles.visualWrapper}>
-          <img src={image} alt={title} />
-          <video src={video} autoPlay loop muted>
-            Your browser does not support the video tag.
-          </video>
+          {image && image.length > 0 && <img src={image} alt={title} />}
+          {video && video.length > 0 && (
+            <video src={video} autoPlay loop muted />
+          )}
         </div>
       </div>
       <div className={styles.details}>
@@ -34,11 +34,13 @@ export default function Project({
           <p>{description}</p>
         </div>
 
-        <div className={styles.links}>
-          {links.map((link, index) => (
-            <LinkWithIcon key={index} {...link} />
-          ))}
-        </div>
+        {links && links.length > 0 && (
+          <div className={styles.links}>
+            {links.map((link, index) => (
+              <LinkWithIcon key={index} {...link} />
+            ))}
+          </div>
+        )}
 
         <div className={styles.tags}>
           {tags.map((tag, index) => (
