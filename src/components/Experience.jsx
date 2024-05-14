@@ -4,6 +4,21 @@ import Tag from "@/components/Tag";
 import LinkWithIcon from "@/components/LinkWithIcon";
 import { GoArrowUpRight } from "react-icons/go";
 
+const months = [
+  "Jan",
+  "Feb",
+  "Mar",
+  "Apr",
+  "May",
+  "Jun",
+  "Jul",
+  "Aug",
+  "Sep",
+  "Oct",
+  "Nov",
+  "Dec",
+];
+
 export default function Experience({
   startDate,
   endDate,
@@ -16,14 +31,32 @@ export default function Experience({
   mouseIn = false,
 }) {
   const renderDate = (startDate, endDate) => {
-    // return date ? <p>{date}</p> : <p>Present</p>;
-    return "";
+    const start = startDate.split("/");
+    let end;
+    if (endDate === "present") {
+      end = "present";
+    } else {
+      end = endDate.split("/");
+    }
+    const startMonth = months[parseInt(start[0]) - 1];
+    let endMonth;
+    if (end === "present") {
+      endMonth = "Present";
+    } else {
+      endMonth = months[parseInt(end[0]) - 1];
+    }
+    return (
+      <span>
+        {startMonth} {start[1]} -{" "}
+        {end === "present" ? "Present" : `${endMonth} ${end[1]}`}
+      </span>
+    );
   };
   return (
     <div className={`${styles.experience} ${mouseIn ? styles.deactive : ""}`}>
       <div className={styles.date}>
         {/* {renderDate(startDate, endDate)} */}
-        2024 — Present
+        {renderDate(startDate, endDate)}
       </div>
       <div className={styles.details}>
         <div className={styles.roleAndCompany}>
