@@ -138,7 +138,7 @@ export default function Home() {
               Driven software engineer with a strong background in development,
               DevOps, and leadership. Pursuing Machine Learning certifications.
               Passionate about mathematics, with two bronze medals from WMC and
-              TIMO Olympics.
+              TIMO Olympiads.
               <br />
               <br /> Lately, my main focus has been on crafting seamless
               full-stack solutions and diving deep into AI engineering and data
